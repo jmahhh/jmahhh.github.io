@@ -1,0 +1,110 @@
+---
+layout: post
+title:  "Meet the Forkers"
+date:   2016-08-12 15:25:25 +0800
+categories: ethereum
+---
+
+### Introduction
+The Ether/ETC debacle got me thinking about the blockchain ecosystem, its actors and its dynamics. Below I propose three main parties whose unique characteristics allow us to better understand how a blockchain might develop in light of a fork. The perspective here is that forks are either a form of activism, or a tool for 'fixing' a distributed network. I'll take a bit of a game-theoretic approach, with agents and actions and stuff, but I'm not a professor so don't hold me to it.
+
+### Predicting Chain Success
+Forks are unavoidable and, as [Vitalik stated two years ago][silos], of probable benefit to progress as a whole. My impression is that they have a bit of a bitter connotation at the moment, but they should be as natural as cells splitting. In the end, each of us might operate a fork for ourselves based on our beliefs or requirements, like a `virtualenv`. My [Otonomos][oto] colleague [Mano Thanabalan][mano] likens this to how we have many Linux flavours nowadays. Assuming we're in the early stages of such a distributive process, if there is one at all, it's interesting to consider what might determine the longevity and success of split chains.
+
+### The Trinity: Miners, Developers, Exchanges/Traders
+
+I've categorized each party in terms of how actively they are involved in a forking process: passive, active, both.
+
+**Large Miners**: passive. Not incentivized to be first-actors as they benefit from network stability and growth. These guys generally seem to lag behind. Look at Bitcoin. Miners could have cut through the crap a long time ago but they didn't because they benefit (and force) the status quo. They're basically non-militant Conservatives[^1]. They'll need a first mover outside their area, either a Developer or a Trader.
+
+**Developers**: both. To fork you need just one developer (the Forker). There might be a group of them (Forkers). Forking and going off on your own is not necessarily difficult. However it's different from having an active developer ecosystem, where synergies and continuous feedback from differing parties lead to a blossoming (and thus rewarding) network.
+
+Pre-fork developers joining the Forkers must be convinced of its potential versus the non-forked version. In this respect they might resemble miners, since they benefit from having to deal with as little change as possible (also one of the reasons why efforts like Lisk are counterproductive IMHO[^4])[^5]. The developer flux will depend on the extent to which the forks differ. A simple spinoff will not attract much attention. On the other hand a fundamental fork aimed at network health, as in the ETC case, will likely lead to herd behavior in favor of whatever direction the core developing team chooses. As we saw with Ether *practically all* large projects decided to move with the fork. They just want safety, which is fair enough.
+
+**Exchanges/Traders (ET)**: active. I hate to say it but it seems that even the advanced technological frontier we find ourselves in is subject to something as crude as the laws of **money**. Does anyone remember that period after the fork when then tickerless ETC didn't trade yet? The thing spent [at least a week][week] without fuss (~July 15th onwards). There were some developers, some small miners.
+
+*But nobody gave a damn*.
+
+Then Poloniex showed up on the 23rd of July and everything changed. The ETH hash rate started dropping immediately. **In fact it was at an all-time high that day**.
+
+![hashrate](https://s4.postimg.org/7fxwijh31/image.jpg)
+
+Money brought hype, hype brought drama, drama brought trolls and now we've basically wasted a whole bunch of resources on nothing at all. From The DAO, with love.
+
+Obviously the ETH price took a hit as well that day.
+
+![price](https://s4.postimg.org/czzu9dd71/image.jpg)
+
+And here's the thing: you can't blame Poloniex. Volume is money. Exchanges and traders (in that order?[^3]) are probably the most opportunistic agents in the whole blockchain world[^2]. I mean, Bitmex [launched a BFX derivative][bfx] one day after Bitfinex reopened! It just seems to me that these guys currently have an awful lot of make-or-break power, and the advent of decentralized exchanges is still far off (although [EtherDelta][etherdelta] and [Bitsquare][bitsquare] are pretty nice).
+
+### Chain: The Play
+So we have the three main actors, and some very arbitrarily defined characteristics. Let's put them on stage and see what happens when we add the magical ingredient: conflict[^6].
+
+*The Three stand on Stage, facing no particular direction. They are surrounded by block-like structures.*
+
+*The Miner is sweating. ET is looking at his wallet. The Dev cleans his glasses.*
+
+*Conflict enters.*
+
+Dev: I don't agree with this! I'm FORKING!
+
+*ET sniffs in the air.*
+
+ET: Do I smell opportunity?
+
+*The Miner ignores everyone.*
+
+Dev: Muhaha! BEHOLD [TOKEN] CLASSIC!
+
+Audience: meh.
+
+ET: Hey, this token *could* be pretty big. I'm in.
+
+*It rains dollar bills.*
+
+Everyone: rabble rabble rabble!
+
+*Troll enters.*
+
+*Rabbling intensifies.*
+
+*Curtains.*
+
+### On Bitcoin's Predicament
+Following the Trinity model above, we conclude: [given a bitcoin fork][fork] and a (mainstream) exchange trading that token, it will take off. Otherwise good luck. [See Bitcoin XT][xt]. What I'm implying is: **money is a blockchain's IV**. That's an observation, not a statement. Maybe it's standard for emerging technology, but it certainly doesn't seem too healthy. Let's hope it changes [as things scale up][wef], and blockchain technology becomes a conscious architectural choice for major systems.
+
+After writing this I realize that there should probably by a fourth type of agent: **activists**. They don't have any particular occupation in Trinity terms, but they're very vocal, especially on forums like Reddit. In certain instances they could even be at the source of a fork; I think that's what happened with the Bitcoin fork project.
+
+### Conclusion: Forking 101
+No need to discuss chickens and eggs here. The impulse to fork usually comes from either a developer or an activist, or a combination of both. Interested in having your fork take off? Make a fuss, get added to an exchange and let the money take over. [Watch in glee][barry] as the non-fork bleeds and the hashrate comes flowing in. Congratulations! You've forked like a boss. Now what? Erm...
+
+
+**Right now something as utilitarian as an *exchange* can apparently influence or even determine developments in the blockchain space**. It's not just strange, it's an anomaly in the context of decentralization. Nevertheless the situation cannot persist long going forward, be it because of ever-increasing forks-of-forks or peer-to-peer trading. It's just another reminder that we're still in the midst of a revolutionary technology's growing pains. No pain, no gain!
+
+
+[^1]: One thing I'd like to explore in the future is miner activism, like shareholder activism in mainstream finance.
+
+[^2]: If we take *opportunism* to mean mainly incentivized by money, and *altruism* primarily incentivized by something other than money, within the Trinity only developers *could* be considered altruistic, especially the core team. Miners are also opportunists but since they benefit from stability, in contrast to exchanges/traders, they can be expected to act (much) more slowly than the latter.
+
+[^3]: Traders are easy to characterize as opportunists, but we shouldn't underestimate the exchanges either. I mentioned Bitmex's savvy product launches already. Bitfinex added Dash, then [removed it][removed] again. Kraken launched [SEVEN][seven] pairs for The DAO token when it became available. And of course Poloniex and ETC.
+
+[^4]: Greater adoption of blockchain technology is not so much a question of coding ability as it is a matter of **understanding**. You could learn a hundred coding languages but if you don't understand the context I doubt you'll be of much use to emerging technology.
+
+[^5]: You could even compare it to [Python 2 vs 3][python].
+
+[^6]: Of course in the case of ETH/ETC the logic is reversed.
+
+[etherdelta]: https://etherdelta.github.io/
+[bitsquare]: https://bitsquare.io/
+[bfx]: https://blog.bitmex.com/announcing-the-launch-of-bfx-2-5x-leveraged-futures/
+[oto]: http://otonomos.com/
+[mano]: https://github.com/manoThanabalan
+[silos]: https://blog.ethereum.org/2014/12/31/silos/
+[seven]: http://blog.kraken.com/post/144971320167/kraken-to-support-dao-trading?is_related_post=1
+[removed]: https://www.bitfinex.com/posts/49
+[fork]: https://www.reddit.com/r/btcfork
+[wef]: www3.weforum.org/docs/WEF_The_future_of_financial_infrastructure.pdf
+[python]: https://news.ycombinator.com/item?id=7799524
+[week]: https://github.com/ethereumclassic/README/commit/028d481b0c1b4fda3d446d9d00df7ca10bd17451
+[xt]: http://www.coindesk.com/scalability-debate-bitcoin-xt-proposal-stalls/
+[barry]: https://twitter.com/barrysilbert/status/762312144411058177
