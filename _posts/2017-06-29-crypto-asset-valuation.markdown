@@ -3,13 +3,13 @@ layout: post
 title:  "Token Valuation Theory"
 date:   2017-06-29 00:00:00 +0800
 categories: blockchain
-published: false
+published: true
 ---
 
-### Hypothesis 0: Cryptocurrencies Are Not a Separate Asset Class
+### Hypothesis 1: Cryptocurrencies Are Not a Separate Asset Class
 ...but represent a hyper-digital and legally unconstrained version of traditional financial instruments (assuming they're tradeable *name exceptions??*). If you would completely strip a cryptocurrency down to its bare essence, you would find it is simply an integer/float whose meaning is enforced by a network (the blockchain). You could come up with a thousand and one uses for them, and people currently are. *Most of the time projects will purpose their integers as some kind of network token.*
 
-### Hypothesis 1: Different Cryptocurrencies Belong to Different Asset Classes
+### Hypothesis 2: Different Cryptocurrencies Belong to Different Asset Classes
 ...which is why I prefer to call them tokens. In most cases they were never actually meant to be currencies. Of the major tokens only Bitcoin was explicitly designed to be a currency. Ether, for example, is primarily meant as fuel for a network, so why should it not be considered a commodity, like oil? Let's take the classic list of asset classes (stocks, fixed income, cash, foreign currencies, real estate, commodities) and categorise some of our favourite tokens.
 
 TBD:
@@ -79,10 +79,20 @@ Not particularly relevant as long as physical bitcoins etc are not commonly acce
   * REX?
   * IoT tokens that provide direct ownership of an item?
 
-### Hypothesis 2: Commodity Tokens can be Valued Similarly to Traditional Commodities
+### Hypothesis 3: Commodity Tokens can be Valued Similarly to Traditional Commodities
+Simple demand and supply. May warrant some pundit's obsessions with the supply of e.g. ETH ([compare with ETC monetary policy][ETCstatement]). Demand is a lot trickier to measure. Demand is classicly based on previous demand (plus macro?). How do we measure demand for e.g. ETH? We have to look at existing projects, their needs and their potential growth as well as appearance of new projects. Thought experiment: ETH not traded on exchanges. Those needing Ether can get it by doing OTC with the Foundation *not sure this makes sense as normal users wanting to interact must also do that*. Startups will need to estimate core amount + tx fees (latter requires anticipating network status i.e. miner behavior etc) ------> RESEARCH: how much Ether does a token startup use a month? Test networks some (most) of the need.
 
+Ironically most of the demand for Ether comes from its use as a currency to buy ICOs at the moment (medium of exchange).
 
-### Hypothesis 3: As Token Markets Mature, Diversification Across Tokens in Different Asset Classes Could Become as Efficient as Traditional Asset Allocation Strategies
+Interaction of supply demand right before (pump) and after (dump) an ICO.
+
+Core element: gas (for simple txns or contract interaction)
+--> estimate simple txns
+--> estimate contract interactions
+
+### Hypothesis 4: As Token Markets Mature, Diversification Across Tokens in Different Asset Classes Could Become as Efficient as Traditional Asset Allocation Strategies
 ...i.e. you can combine Bitcoin, Ether and Lykke like you would combine normal Stocks, Currencies and Commodities in a portfolio and expect diversification benefits.
 
 Given that cryptocurrencies are dispersed across multiple asset classes, they may paradoxically present potential for diversification amongst themselves in asset allocation strategy.
+
+[ETCstatement]: https://www.etcdevteam.com/blog/articles/a-joint-statement-ecip1017.html
