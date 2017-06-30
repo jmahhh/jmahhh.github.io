@@ -3,7 +3,7 @@ layout: post
 title:  "Token Valuation Theory"
 date:   2017-06-29 00:00:00 +0800
 categories: blockchain
-published: true
+published: false
 ---
 
 ### Hypothesis 1: Cryptocurrencies Are Not a Separate Asset Class
